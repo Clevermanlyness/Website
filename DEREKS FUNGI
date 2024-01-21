@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F0F0F0;
+        }
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        p {
+            text-align: justify;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            width: 300px;
+            height: 400px;
+            margin: 10px;
+            border: 1px solid #CCCCCC;
+            box-shadow: 2px 2px 5px #AAAAAA;
+        }
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 10px;
+        }
+        .card-title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .card-text {
+            font-size: 16px;
+        }
+        .card-link {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #333333;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my personal website!</h1>
+    <p>Hi, I'm John Doe, a web developer and a hobbyist photographer. I love creating beautiful and functional websites using HTML, Javascript, and CSS. I also enjoy taking photos of nature, animals, and people. Here you can find some information about me, my resume, and my contact details.</p>
+    <div class="container">
+        <div class="card">
+            <img src="biography.jpg" alt="Biography" class="card-image">
+            <div class="card-content">
+                <div class="card-title">Biography</div>
+                <div class="card-text">I was born and raised in Fort Wayne, Indiana. I have a bachelor's degree in computer science from Indiana University. I have been working as a web developer for five years, mainly using HTML, Javascript, and CSS. I have also learned some frameworks like React, Angular, and Bootstrap. I have created websites for various clients, such as e-commerce, education, and entertainment.</div>
+                <a href="biography.html" class="card-link">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="resume.jpg" alt="Resume" class="card-image">
+            <div class="card-content">
+                <div class="card-title">Resume</div>
+                <div class="card-text">Here you can find my resume, which includes my education, work experience, skills, and achievements. You can also download it as a PDF file or view it online.</div>
+                <a href="resume.html" class="card-link">View resume</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="contact.jpg" alt="Contact" class="card-image">
+            <div class="card-content">
+                <div class="card-title">Contact</div>
+                <div class="card-text">If you want to get in touch with me, you can use any of the following methods. I will try to reply as soon as possible.</div>
+                <ul>
+                    <li>Email: johndoe@example.com</li>
+                    <li>Phone: +1 234 567 8901</li>
+                    <li>LinkedIn: https://www.linkedin.com/in/johndoe</li>
+                    <li>Twitter: https://www.twitter.com/johndoe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
